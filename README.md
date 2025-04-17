@@ -16,3 +16,7 @@ A aplicação simula a operação de abertura de conta utilizando **programaçã
    
    java -jar build/libs/desafio-dio-conta-bancaria.jar
    ```
+
+# 🚨 Atenção 🚨
+
+É completamente possível usar o gradlew run, porém em terminais powershell no windows costuma dar erro, use com cautela.
