@@ -7,9 +7,6 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-}
-
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
@@ -18,4 +15,12 @@ java {
 
 application {
     mainClass = "ContaBanco.Program"
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': application.mainClass.get()
+        )
+    }
 }
