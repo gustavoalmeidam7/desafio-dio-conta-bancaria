@@ -14,5 +14,5 @@ A aplicação simula a operação de abertura de conta utilizando **programaçã
    
    ./gradlew build 
    
-   java -jar build/libs/ContaBanco.jar
+   java -jar build/libs/desafio-dio-conta-bancaria.jar
    ```
